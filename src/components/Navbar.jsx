@@ -72,7 +72,7 @@ export const Navbar = () => {
           <div className="header-item-right">
             <div className="main-icon-form-media">
               <div className="wsdd">
-                <ul>
+                <ul>$ git push origin main
                   <li className="menu-item">
                     <a href="/" data-bs-toggle="modal" data-bs-target="#exampleModal">
                      Buy Now
