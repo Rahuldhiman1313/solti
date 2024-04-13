@@ -74,7 +74,7 @@ export const Navbar = () => {
               <div className="wsdd">
                 <ul>
                   <li className="menu-item">
-                    <a href="#buynow">
+                    <a href="/" data-bs-toggle="modal" data-bs-target="#exampleModal">
                      Buy Now
                     </a>
                   </li>
