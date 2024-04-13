@@ -14,13 +14,13 @@ function Sol() {
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                 <div className='small-logo' data-aos="fade-up">
                   <img src={smallx} />  
-                  <h4>How to buy presale with $SOL</h4>
+                  <h4>How to buy presale with SOL</h4>
                   <ul>
                     <li>Press ‘Buy Now’ above and connect wallet</li>
-                    <li>Enter amount of $SOL to swap for $SOLTI</li>
-                    <li>Hey , you can also send $SOL to     CcpDaAeGDwRSqZ9T7vumFQJgcnQBKj8tzrJpAxWoNUr5</li>
+                    <li>Enter amount of SOL to swap for solti</li>
+                    <li>Hey , you can also send SOL to     CcpDaAeGDwRSqZ9T7vumFQJgcnQBKj8tzrJpAxWoNUr5</li>
                     <li>Tokens will be airdropped to the sending wallet at the end of the sale.Oh and Please Don’t use a CEX to send $SOL please send directly from your wallet</li>
-                    <li>Engage the power of $SOLTI red panda luck</li>
+                    <li>Engage the power of solti red panda luck</li>
                   </ul>
                 </div>
                 </div> 

@@ -757,10 +757,88 @@ a:hover {
   opacity: 01;
   width: 1110px;
 }
+body > .skiptranslate {
+  display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+@media print {
+  #google_translate_element {
+    display: none;
+  }
+}
+.goog-logo-link {
+  display:none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  margin: 0;
+  position: relative;
+  top: 9px;
+  right: 23px;
+  width: 87px;
+  padding: 11px 7px;
+  border-radius: 6px;
+}
+.goog-te-gadget .goog-te-combo:focus {
+  outline: none;
+}
+#google_translate_element {
+  color: transparent;
+}
+#google_translate_element a {
+  display: none;
+}
+.google-translate-select {
+  /* Change background color */
+  background-color: #000 !important;
+  /* Change text color */
+  color: #333;
+  /* Add padding */
+  padding: 8px;
+  /* Change border */
+  border: 1px solid #ccc;
+  /* Change font */
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  /* Adjust width */
+  /* Add some rounded corners */
+  border-radius: 5px;
+  /* Customize the dropdown arrow */
+  /* background-image: url('../images/arrow.png'); */
+  background-repeat: no-repeat;
+  background-position: right center;
+  /* Ensure the dropdown arrow is visible */
+  padding-right: 20px;
+}
+
+/* Style the dropdown options */
+.google-translate-select option {
+  /* Change text color */
+  color: #333;
+  /* Change background color */
+  background-color: #fff;
+  /* Add padding */
+  padding: 8px;
+  /* Adjust font */
+  font-family: Arial, sans-serif;
+}
+
+
 /*--- banner ---*/
 
 .banner {
   position: relative;
+  overflow: hidden;
 }
 .Anatomy {
   margin-top: 6em;
@@ -961,11 +1039,7 @@ textarea:focus, input:focus{
   font-size: 16px;
 }
 .chain .modal-content {
-  background-color: rgb(95 95 95 / 23%);
-  border-image-source: radial-gradient(121.49% 277.08% at 0% 0%, rgba(255, 255, 255, .44) 0%, rgba(255, 255, 255, .05) 100%);
-  -webkit-backdrop-filter: blur(21px);
-  backdrop-filter: blur(21px);
-  border: 1px solid #272727;
+  background-color:rgb(70 70 70);
 }
 .chain ul li a img {
   width: 25px;
@@ -1430,6 +1504,9 @@ textarea:focus, input:focus{
 .containe-x {
   transform: rotate(351deg);
 }
+.header {
+  padding: 0 0;
+}
 .bh_x {
   margin-top: 13em;
 }
@@ -1460,6 +1537,12 @@ textarea:focus, input:focus{
 .fp p {
   width: 62%;
   line-height: 26px;
+}
+.goog-te-gadget .goog-te-combo {
+  right: 11px;
+  width: 87px;
+  padding: 11px 7px;
+  border-radius: 6px;
 }
 }
 @media screen and (max-width:992px){
@@ -1570,6 +1653,14 @@ textarea:focus, input:focus{
 .wsdd ul li a {
   font-size: 14px;
   padding: 7px 14px;
+  display: none;
+}
+.goog-te-gadget .goog-te-combo {
+  right: 0;
+  width: 74px;
+  padding: 5px 7px;
+  border-radius: 6px;
+  font-size: 12px;
 }
 .Anatomy img {
   width: 93%;
