@@ -1,5 +1,5 @@
 import React from 'react'
-import smallx from "../images/small-logo.png";
+import smallx from "../images/logo.png";
 import bnxxx from "../images/catss.png";
 import lihx from "../images/Home3.png";
 function Sol() {

@@ -22,7 +22,7 @@ function Modalc() {
        <p>If you're on mobile, please open this inside your wallet's built-in browser.</p>
        <p>If you are unable to connect your wallet, you can send the SOL directly to </p>
        <strong>
-       EnSawje2vQSQKtGbPYdXEuYKm2sHgeLKJTqCmrDErKEA.
+       9NfCQfEDnmhyeHagFAsZatnsjfsUwbQCRUz159Cesb68
        </strong>
       </div>
       </div>

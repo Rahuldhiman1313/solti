@@ -34,7 +34,7 @@ export default function Bannerhome() {
                 <form>
                 <div className='fox'>
                     <div className='fox-x'>
-                        <h4>Sol equals</h4>
+                        <h4>$SOL equals</h4>
                         <div className='nmc'>
                         <input type='tex'placeholder='1'/>
                         <img src={solana}/>
