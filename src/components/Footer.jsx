@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
         <div className="fp">
-            <p>DISCLAIMER: SOLTI IS A MEME COIN WITH SPECULATIVE VALUE DERIVED ONLY FROM THE SOLTI MEME UNIVERSE. CRYPTO PRICES FLUCTUATE WILDLY. MEME RESPONSIBLY.</p>
+            <p>DISCLAIMER: $SOLTI IS A MEME COIN WITH SPECULATIVE VALUE DERIVED ONLY FROM THE $SOLTI MEME UNIVERSE. CRYPTO PRICES FLUCTUATE WILDLY. MEME RESPONSIBLY.</p>
         </div>
         <div className='bpcs'>
         <div className="container-fluid">

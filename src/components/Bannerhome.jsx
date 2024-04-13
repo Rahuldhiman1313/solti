@@ -28,9 +28,9 @@ export default function Bannerhome() {
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
               <div className="box-dc" data-aos="fade-up">
                 <div className='solna' ><img src={solana}/></div>
-                <h1>SOLTI<br/> THE <span>RED</span> PANDA POWER presale</h1>
-                <div className="meme-power"><h2>The meme power of SOLTI on SOLANA</h2></div>
-                <h3>Presale Funds raised $2,100,000 SOLTI</h3>
+                <h1>$SOLTI<br/> THE <span>RED</span> PANDA POWER presale</h1>
+                <div className="meme-power"><h2>The meme power of $SOLTI on SOLANA</h2></div>
+                <h3>Presale Funds raised $2,100,000 $SOLTI</h3>
                 <form>
                 <div className='fox'>
                     <div className='fox-x'>
@@ -41,7 +41,7 @@ export default function Bannerhome() {
                         </div>
                     </div>
                     <div className='fox-x'>
-                        <h4>SOLTI</h4>
+                        <h4>$SOLTI</h4>
                         <div className='nmc'>
                         <input type='tex' placeholder="50,000"/>
                         <img src={logo}/>
