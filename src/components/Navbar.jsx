@@ -47,11 +47,11 @@ export const Navbar = () => {
               </div>
               <ul className="menu-section">
              
-                <li className="menu-item">
-                  <Link to="/">How to Buy</Link>
+                <li onClick={()=>setActive(false)} className="menu-item">
+                  <a href="#buy">How to Buy</a>
                 </li>
-                <li className="menu-item">
-                  <Link to="/contact" className="contsss">Faq</Link>
+                <li onClick={()=>setActive(false)} className="menu-item">
+                  <a href="#faq" className="contsss">Faq</a>
                 </li>
               </ul>
             </nav>
@@ -74,7 +74,7 @@ export const Navbar = () => {
               <div className="wsdd">
                 <ul>
                   <li className="menu-item">
-                    <a href="/">
+                    <a href="#buynow">
                      Buy Now
                     </a>
                   </li>

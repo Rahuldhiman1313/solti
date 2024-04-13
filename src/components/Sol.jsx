@@ -5,7 +5,7 @@ import lihx from "../images/Home3.png";
 function Sol() {
   return (
     <div>
-     <section className='Sol-s'>
+     <section className='Sol-s' id='buy'>
      <div className='njxxxju'>
             <img src={lihx}/>
         </div>   
