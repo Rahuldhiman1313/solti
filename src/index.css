@@ -1039,7 +1039,9 @@ textarea:focus, input:focus{
   font-size: 16px;
 }
 .chain .modal-content {
-  background-color:rgb(70 70 70);
+  background: -webkit-linear-gradient(-45deg, #86104b 0, #090979 100%);
+  background: -moz-linear-gradient(135deg, #86104b 0, #090979 100%);
+  background: linear-gradient(135deg, #86104b 0, #090979 100%);
 }
 .chain ul li a img {
   width: 25px;
@@ -1049,14 +1051,14 @@ textarea:focus, input:focus{
   display: flex;
   align-items: center;
   gap: 9px;
-  background-color: #373737;
+  background-color:rgb(255 255 255 / 31%);
   margin-bottom: 11px;
   padding: 11px 17px;
   border-radius: 7px;
   color: #fff;
 }
 .chain ul li a:hover {
-  background-color: #58376e;
+  background-color: rgb(255 0 135 / 58%);
 }
 .chain p {
   text-align: center;
