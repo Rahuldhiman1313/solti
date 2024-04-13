@@ -54,7 +54,7 @@ export default function Bannerhome() {
                 <Copylink />
                 </div>
                 <p>Tokens airdropped to purchasing wallet on sale completion</p>
-                <button className='buy-x'>BUY NOW</button>
+                <button className='buy-x'  data-bs-toggle="modal" data-bs-target="#exampleModal">BUY NOW</button>
               </div>
               </div>
               <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -69,6 +69,7 @@ export default function Bannerhome() {
             <img src={cvd}/>
         </div>
         </sction>
+        
     </div>
   )
 }

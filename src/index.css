@@ -603,7 +603,7 @@ a:hover {
     height: 3.125rem;
     text-align: center;
     border-left: 1px solid rgb(24 24 24);
-    color: #8c0251;
+    color: #B30003;
   }
   .header .menu .menu-section {
     height: 100%;
@@ -960,6 +960,50 @@ textarea:focus, input:focus{
   color: #fff;
   font-size: 16px;
 }
+.chain .modal-content {
+  background-color: #292929;
+}
+.chain ul li a img {
+  width: 25px;
+  height: 25px;
+}
+.chain ul li a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background-color: #373737;
+  margin-bottom: 11px;
+  padding: 11px 17px;
+  border-radius: 7px;
+  color: #fff;
+}
+.chain ul li a:hover {
+  background-color: #58376e;
+}
+.chain p {
+  text-align: center;
+  font-size: 14px;
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 9px;
+}
+.chain h5 {
+  font-size: 23px;
+  margin: 14px 0px 26px 5px;
+}
+.chain strong {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  word-break: break-word;
+}
+.chain .btn-close {
+  background-color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 /*--- banner ---*/
 
 
@@ -1229,6 +1273,19 @@ textarea:focus, input:focus{
   padding: 14px;
   font-size: 17px;
 }
+.chain h5 {
+  font-size: 20px;
+  margin: 14px 0px 26px 5px;
+}
+.chain ul li a {
+  font-size: 14px;
+  padding: 9px 13px;
+}
+.chain p {
+  font-size: 13px;
+  width: 94%;
+  margin-bottom: 9px;
+}
 
 }
 @media screen and (max-width:1200px){
@@ -1245,6 +1302,11 @@ textarea:focus, input:focus{
 }
 .social ul {
   margin: 0px 1.5rem;
+}
+.header .menu > ul > li > a {
+  position: relative;
+  font-size: 17px;
+  border-bottom: 1px solid #404040;
 }
 .bux2 {
   top: 0;
@@ -1345,6 +1407,13 @@ textarea:focus, input:focus{
 .container {
   max-width: 870px;
 }
+.fox {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 89%;
+  margin: 0 auto;
+}
 .containe-x {
   width: 101%;
   z-index: 1;
@@ -1428,7 +1497,10 @@ textarea:focus, input:focus{
   width: 14px;
   height: 14px;
 }
-
+.about h5 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
 .wrapper {
   width: 100%;
 }
@@ -1461,7 +1533,7 @@ textarea:focus, input:focus{
   margin-top: 0;
 }
 .containe-x {
-  transform: rotate(7deg);
+  transform: rotate(4deg);
 }
 .bh_x {
   margin-top: -1em;
@@ -1497,6 +1569,18 @@ textarea:focus, input:focus{
   width: 93%;
   line-height: 19px;
   font-size: 10px;
+}
+.chain h5 {
+  font-size: 18px;
+  margin: 9px 0px 21px 5px;
+}
+.chain strong {
+  font-size: 13px;
+}
+.chain p {
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 9px;
 }
 }
 
