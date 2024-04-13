@@ -1603,7 +1603,9 @@ textarea:focus, input:focus{
 .bh_x {
   margin-top: -1em;
 }
-
+.bo {
+  margin-top: 2em;
+}
 .Sol-s {
   padding: 70px 0;
   position: relative;
@@ -1650,6 +1652,10 @@ textarea:focus, input:focus{
   font-size: 12px;
   width: 100%;
   margin-bottom: 9px;
+}
+.bpcs p {
+  font-size: 11px;
+  text-align: center;
 }
 .media ul {
   justify-content: center;
