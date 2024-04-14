@@ -832,7 +832,10 @@ body {
   /* Adjust font */
   font-family: Arial, sans-serif;
 }
-
+.box-dc h3 span {
+  display: flex;
+  align-items: center;
+}
 
 /*--- banner ---*/
 
@@ -882,7 +885,7 @@ body {
 }
 .meme-power {
   background-color: #000000;
-  padding: 16px;
+  padding: 16px 6px;
   width: 80%;
   margin: 12px auto;
   transform-box: fill-box;
@@ -902,7 +905,11 @@ body {
 .box-dc h3 {
   font-size: 20px;
   margin: 23px 0;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
 }
+
 .fox {
   display: flex;
   justify-content: center;
@@ -1422,13 +1429,16 @@ textarea:focus, input:focus{
   top: 89px;
   width: 651px;
 }
+
 }
 @media screen and (max-width:1200px){
 .container-fluid {
     padding-left: 40px;
     padding-right: 40px;
 }
-
+.meme-power {
+  width: 100%;
+}
 }
 @media screen and (max-width:1024px){
 .container-fluid {

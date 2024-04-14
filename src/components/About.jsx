@@ -10,7 +10,7 @@ function About() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
-              <h5>MEME about $SOLTI!</h5>
+              <h5>MEME about $SOLTY!</h5>
             </div>
           </div>
           <div className="row caqz">
@@ -22,8 +22,8 @@ function About() {
                   </div>
                   <p>
                     Backed by the irresistible charm of the Lucky Red Panda,
-                    $SOLTI presale is more than just a cryptocurrency - it's a
-                    movement that's about to take the world by storm.{" "}
+                    $SOLTY presale is more than just a cryptocurrency - it's a
+                    movement that's about to take the world by storm.
                   </p>
                 </div>
               </div>
@@ -35,9 +35,9 @@ function About() {
                     <img src={vs2} />
                   </div>
                   <p>
-                    $SOLTI is not just another meme coin - it's a revolution.
+                    $SOLTY is not just another meme coin - it's a revolution.
                     Inspired by the stories of everyday people who have overcome
-                    their humble beginnings to achieve greatness, $SOLTI is a
+                    their humble beginnings to achieve greatness, $SOLTY is a
                     symbol of the power of the people.
                   </p>
                 </div>
@@ -50,7 +50,7 @@ function About() {
                     <img src={vs3} />
                   </div>
                   <p>
-                    By buying presale $SOLTI, you're not just buying a meme -
+                    By buying presale $SOLTY, you're not just buying a meme -
                     you're becoming a part of a community that's dedicated to
                     transforming the financial landscape. Together, we'll rise
                     from the rags and soar to the riches, one meme-fueled
@@ -66,7 +66,7 @@ function About() {
                     <img src={vs4} />
                   </div>
                   <p>
-                    With his catchy name and adorable mascot meme skills, $SOLTI
+                    With his catchy name and adorable mascot meme skills, $SOLTY
                     presale is the must-have token for anyone who wants to ride
                     the wave of the Meme Coin Revolution and bankless evolution.
                   </p>

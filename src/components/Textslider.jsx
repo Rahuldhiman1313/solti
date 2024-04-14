@@ -8,11 +8,11 @@ function Textslider() {
     <div class="horizontal-scrolling-items">
     
     <div class="horizontal-scrolling-items__item">
-    <span>$SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI </span><span>PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  </span>
+    <span>$SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY </span><span>PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  </span>
     </div>
     
     <div class="horizontal-scrolling-items__item">
-    <span>$SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI </span><span>PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  </span>  
+    <span>$SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY </span><span>PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  </span>  
     </div>
     </div>
     </div> 
@@ -20,11 +20,11 @@ function Textslider() {
     <div class="horizontal-scrolling-items ewx">
     
     <div class="horizontal-scrolling-items__item ewx2">
-    <span>$SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI </span><span>PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  </span>  
+    <span>$SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY </span><span>PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  </span>  
     </div>
     
     <div class="horizontal-scrolling-items__item ewx2">
-    <span>$SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI </span><span>PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  $SOLTI PRESALE  </span>
+    <span>$SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY </span><span>PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  $SOLTY PRESALE  </span>
     </div>
     </div>
     </div>
