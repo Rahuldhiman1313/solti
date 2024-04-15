@@ -788,6 +788,9 @@ body {
   width: 87px;
   padding: 11px 7px;
   border-radius: 6px;
+  background-color: #000;
+  border: 0;
+  color:#fff;
 }
 .goog-te-gadget .goog-te-combo:focus {
   outline: none;
@@ -832,11 +835,28 @@ body {
   /* Adjust font */
   font-family: Arial, sans-serif;
 }
+.goog-te-combo option:first-child {
+  display: none !important;
+}
 .box-dc h3 span {
   display: flex;
   align-items: center;
 }
+.goog-te-banner-frame, .goog-logo-link { display: none }
 
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+.goog-te-gadget::selection { color: transparent !important; }
+
+.goog-te-gadget::-moz-selection { color: transparent !important; }
+
+#google_translate_element img {
+  width: 24px; /* Adjust size as needed */
+  height: auto;
+  cursor: pointer;
+}
 /*--- banner ---*/
 
 .banner {

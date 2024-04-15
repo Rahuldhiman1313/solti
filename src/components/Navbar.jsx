@@ -10,11 +10,14 @@ export const Navbar = () => {
     setActive(true);
   };
   
-  const googleTranslateElementInit = () => {
+const googleTranslateElementInit = () => {
     new window.google.translate.TranslateElement(
       {
         pageLanguage: "en",
         autoDisplay: false,
+        defaultLanguage: "en",
+        disableLanguageSelector: true
+        
       },
       "google_translate_element"
     );
@@ -29,7 +32,7 @@ export const Navbar = () => {
         "src",
         "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
       );
-
+  
       // Check if there's already a script element with the same src
       const existingScript = document.querySelector(
         `script[src="${addScript.src}"]`
@@ -38,13 +41,13 @@ export const Navbar = () => {
         // If a script with the same src exists, remove it
         existingScript.remove();
       }
-
+  
       // Append the script to the body
       document.body.appendChild(addScript);
-
+  
       // Assign the function to the window object
       window.googleTranslateElementInit = googleTranslateElementInit;
-
+  
       // Clean up function to remove the script when component unmounts
       return () => {
         document.body.removeChild(addScript);
